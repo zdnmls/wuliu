@@ -1,0 +1,279 @@
+@import "base.css";
+.head-box{
+    height: 80px;
+    background:#fff;
+    position: relative;
+    display:flex;
+    justify-content:center;
+
+}
+.head-logo{
+    display: block;
+    width: 250px;
+    height: 52px;
+    /* background: green; */
+    margin-right:50px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.icon{
+    font-family:"iconfont";
+    font-size:60px;
+    font-style:normal;
+}
+.head-logo img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.head-list{
+    width: 765px;
+    height: 80px;
+    display: flex;
+    line-height: 80px;
+    margin-left:30px;
+}
+.list1{
+    height:80px;
+    color: #333;
+    font-size:20px;
+    margin-right:25px;
+
+}
+.head-list a:hover{
+    color:#25a5a8;
+    border-bottom: 2px solid #25a5a8;
+}
+.lt{
+    color:#25a5a8 !important;
+    border-bottom: 2px solid #25a5a8;
+}
+/* 目录栏结束 */
+/*showimg开始*/
+.img-show{
+    width: 100%;
+    height: 150px;
+    background:#ffac13;
+    display: flex;
+    justify-content: center;
+}
+.img-show img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.show-img{
+    width: 100%;
+    height: 150px;
+}
+/*nav开始*/
+.nav{
+    width: 100%;
+    height:61px;
+    background:#08888b;
+    display: flex;
+    justify-content: center;
+}
+.nav-zi{
+    width:960px;
+    height:61px;
+    display: flex;
+    align-items: center;
+}
+.icon1{
+    font-family:"iconfont";
+    font-size:18px;
+    font-style:normal;
+}
+.zi1{
+    font-size: 16px;
+    color: #c2e1d0;
+    font-weight: 100;
+}
+.zi1:hover{
+    color:#fff;
+}
+.zi2{
+    width:75px;
+    height: 19px;
+    margin-left: 8px;
+    font-weight: 550;
+    color: #f5f6fb;
+}
+/*三角开始*/
+.icon2{
+    font-family:"iconfont";
+    font-size:18px;
+    font-style:normal;
+    position: relative;
+    bottom: 8px;
+    left: 470px;
+    color:#08888b;
+}
+.icon3{
+    font-family:"iconfont";
+    font-size:18px;
+    font-style:normal;
+    position: relative;
+    color:#08888b;
+    margin-right: 10px;
+}
+/*三角结束*/
+/*section*/
+.section-beijing{
+    width:100%;
+    height:600px;
+
+}
+.section{
+    width:960px;
+    height:546.8px;
+    margin: 0 auto;
+    display: flex;
+}
+.aside-nav{
+    width:171px;
+    height: 110px;
+    background: #fff;
+    margin-top: 40px;
+}
+.aside-list{
+    display: block;
+    width:171px;
+    height: 53px;
+    background: #f3f3f3;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a3a8ab;
+    color: #111111;
+}
+.aside-list:hover{
+    color:#08888b;
+}
+.lt1{
+    font-weight: 600;
+    color:#08888b !important;
+}
+.section-right{
+    width: 790px;
+    height: 640px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.wenhua{
+    width: 739px;
+    height:56px;
+    /*margin-bottom: 13px;*/
+}
+.yuanjing{
+    font-size: 16px;
+    font-family: "微软雅黑";
+    font-weight:400;
+}
+.yuanjing1{
+    font-size: 13px;
+    font-family: "微软雅黑";
+}
+/* footer开始 */
+.foot-beijing{
+    width: 100%;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    width:100%;
+    height: 116px;
+
+}
+.foot-top{
+    width:100%;
+    height: 40px;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    background: #08888b;
+}
+.foot-top a{
+    color:#fff;
+}
+.foot-top a:hover{
+    color: #f5f6fb;
+}
+.foot-nr{
+    width: 85px;
+    font-size: 16px;
+    margin-right: 20px;
+    border-right: 1.5px solid #888;
+}
+.gs-tu{
+    width:50px;
+    height: 55px;
+    margin-top: 5px;
+
+}
+.foot-bottom{
+    width: 100%;
+    height: 55px;
+    justify-content: center;
+    margin-top: 15px;
+    display: flex;
+
+}
+.bottom-you{
+    width: 550px;
+    height: 55px;
+    margin-left: 15px;
+    line-height: 6px;
+}
+.cop{
+    font-size: 14px;
+    width: 450px;
+    height: 20px;
+    margin-top: 18px;
+    color: #111111;
+}
+.banquan{
+    width: 330px;
+    font-size: 14px;
+    color: #111111;
+}
+.zhe{
+    width: 220px;
+    height: 20px;
+    font-size: 14px;
+    float: right;
+    position: relative;
+    bottom: 6px;
+    margin-right: 20px;
+    color:#000000;
+}
+.zhe a{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

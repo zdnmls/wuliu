@@ -1,0 +1,236 @@
+@import "base.css";
+.head-box{
+    height: 80px;
+    background:#fff;
+    position: relative;
+    display:flex;
+    justify-content:center;
+
+}
+.head-logo{
+    display: block;
+    width: 250px;
+    height: 52px;
+    /* background: green; */
+    margin-right:50px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.icon{
+    font-family:"iconfont";
+    font-size:60px;
+    font-style:normal;
+}
+.head-logo img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.head-list{
+    width: 700px;
+    height: 80px;
+    display: flex;
+    line-height: 80px;
+    /*margin-left:30px;*/
+}
+.list1{
+    height:80px;
+    color: #333;
+    font-size:20px;
+    margin-right:25px;
+
+}
+.head-list a:hover{
+    color:#08888b;
+    border-bottom: 2px solid #08888b;
+}
+/* 目录栏结束 */
+/*showimg开始*/
+.img-show{
+    width: 100%;
+    height: 173px;
+    background: #fff;
+    display: flex;
+    justify-content:center;
+}
+.img-show img{
+    width:1100px;
+    height:90%;
+    display: block;
+    margin-top: 15px;
+}
+.show-img{
+    width:1100px;
+    height:100%;
+}
+/*动态详情*/
+.head-top{
+    width: 1100px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.kuaitong{
+    width: 85px;
+    height: 25px;
+    font-size: 17px;
+    color: #777777;
+    margin-left: 10px;
+}
+.kuaitong:hover{
+    color: #0d1218;
+}
+.dongtaixq{
+    width: 80px;
+    height: 22px;
+    font-size: 15px;
+    color: #777777;
+}
+/*.dongtaixq:hover{*/
+    /*color: #0d1218;*/
+/*}*/
+.neirongbeijing{
+    width: 1100px;
+    height: 1500px;
+    background: #f5f6fb;
+    margin: 0 auto;
+}
+.biaoti{
+    width: 1020px;
+    height: 25px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    background: #f5f6fb;
+}
+.riqi{
+    width: 1020px;
+    height: 25px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+}
+.neirong{
+    width: 1020px;
+    height:1500px;
+    margin: 0 auto;
+    border-top: 20px solid #f5f6fb;
+}
+.zi{
+    font-size: 17px;
+    margin-top: 25px;
+    text-indent: 2em;
+}
+.zi1{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+    text-indent: 2em;
+}
+.tu{
+    width: 1020px;
+    height: 390px;
+    padding-top: 20px;
+}
+.tu img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* footer开始 */
+.foot-beijing{
+    width: 100%;
+    height: 155px;
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    width:100%;
+    height: 116px;
+
+}
+.foot-top{
+    width:100%;
+    height: 40px;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    background: #08888b;
+}
+.foot-top a{
+    color:#fff;
+}
+.foot-top a:hover{
+    color: #f5f6fb;
+}
+.foot-nr{
+    width: 85px;
+    font-size: 16px;
+    margin-right: 20px;
+    border-right: 1.5px solid #888;
+}
+.gs-tu{
+    width:50px;
+    height: 55px;
+    margin-top: 5px;
+
+}
+.foot-bottom{
+    width: 100%;
+    height: 55px;
+    justify-content: center;
+    margin-top: 15px;
+    display: flex;
+
+}
+.bottom-you{
+    width: 550px;
+    height: 55px;
+    margin-left: 15px;
+    line-height: 6px;
+}
+.cop{
+    font-size: 14px;
+    width: 450px;
+    height: 20px;
+    margin-top: 18px;
+    color: #111111;
+}
+.banquan{
+    width: 330px;
+    font-size: 14px;
+    color: #111111;
+}
+.zhe{
+    width: 220px;
+    height: 20px;
+    font-size: 14px;
+    float: right;
+    position: relative;
+    bottom: 6px;
+    margin-right: 20px;
+    color:#000000;
+}
+.zhe a{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
